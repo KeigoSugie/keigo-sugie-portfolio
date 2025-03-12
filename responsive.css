@@ -1,0 +1,289 @@
+@media screen and (min-width:1441px) {
+    html {
+        font-size: 78.125%;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .container {
+        padding: 0 5rem;
+    }
+
+    .about-contents-inner {
+        flex-direction: column;
+        gap: 7.5rem;
+    }
+
+    .about-contents-inner > img {
+        width: 35rem;
+    }
+
+    .view-btn-container {
+        justify-content: flex-start;
+    }
+
+    .view-btn-inner {
+        transform: translateX(3rem);
+    }
+
+    .skillls-contents ul {
+        padding: 0;
+		gap: 12.5rem;
+    }
+
+    .skillls-contents-item {
+        flex-direction: column;
+        gap: 5rem;
+        align-items:baseline;
+    }
+
+    .skillls-contents-item-img {
+        width: 100%;
+    }
+
+    .works-contents li a {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .works-contents-text {
+        width: 100%;
+    }
+
+    .works-contents-img {
+        width: 100%;
+    }
+
+    .works-contents .view-btn-inner {
+        transform: translateX(-3rem);
+    }
+
+    .other-works-text p:nth-of-type(2) {
+        display: none;
+    }
+    
+    .other-works-text p:last-of-type {
+        display: none;
+    }
+
+    .other-works .owi:hover span::before {
+        scale: 1;
+    }
+    
+    .other-works .owi:hover img {
+        scale: 1;
+        opacity: 0.6;
+    }
+
+    .works-detail-title {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .works-detail-title img {
+        width: 100%;
+    }
+
+    .works-detail-list dl:nth-of-type(5) dd img:first-of-type {
+        width: 100%;
+        max-width: 57.5rem;
+    }
+
+    .works-detail-list.shippou dl:nth-of-type(5) dd img:nth-of-type(2) {
+       width: 100%;
+       max-width: 42rem;
+    }
+
+    .all-works ul {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .all-works ul li {
+        width: 100%;
+    }
+}
+
+@media (orientation: portrait){
+    .other-works {
+        height: 120vw;
+    }
+
+    .other-works .other-works-item3 {
+        top: 65%;
+        left: 30vw;
+    }
+
+    .other-works .other-works-item5 {
+        inset: 10vw 30vw auto auto;
+    }
+
+    .other-works .other-works-item7 {
+        inset: auto 22vw 28vw auto;
+    }
+
+    .other-works .other-works-item8 {
+        inset: auto 8vw 7vw auto;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .strength-contents ul {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .strength-contents li {
+        width: 100%;
+        box-sizing: border-box;
+    }    
+}
+
+@media screen and (max-width:760px) {
+    html {
+        font-size: 46.875%;
+    }
+
+    .pc-only {
+        display: none;
+    }
+
+    .phone-only {
+        display: block;
+    }
+	
+	.container {
+        padding: 0 3rem;
+    }
+
+    dl {
+        flex-direction: column;
+    }
+
+    dt {
+        width: 100%;
+		margin-top: 3.5rem;
+    }
+
+    dd {
+        width: 100%;
+        margin-top: 1.5rem;
+        margin-bottom: 3.5rem;
+    }
+	
+	header {
+		padding: 2rem 3rem;
+	}
+
+    header ul {
+        gap: 2rem;
+		transform: translateX(0);
+    }
+
+    header img {
+        width: 3.5rem;
+    }
+	
+	.topper img  {
+		width: 45vw;
+	}
+	
+	.about-contents-inner {
+		gap: 5rem;
+    }
+
+    .about-contents-detail .about-contents-inner > img {
+        max-width: 100%;
+    }
+	
+	.view-btn-container {
+		margin-top: 4rem;
+	}
+	
+	.view-btn-inner {
+		gap: 4.2rem;
+	}
+	
+	.view-btn::before {
+		width: 6.4rem;
+		height: 6.4rem;
+	}
+	
+	.view-btn-inner p {
+		font-size: 2.4rem;
+	}
+	
+	.view-btn img {
+		width: 1.4rem;
+	}
+	
+	.skillls-contents-item {
+		margin-bottom: 5rem;
+	}
+	
+	.skillls-contents-item-img img {
+    	width: 50vw;
+	}
+	
+	.works-contents li a {
+		padding: 6.4rem 0;
+	}
+	
+	.works-contents-text-left h4 {
+		font-size: 2.3rem;
+		margin-top: 2rem;
+	}
+
+    .works-contents .view-btn-inner {
+        display: none;
+    }
+	
+	.about-contents-reason {
+		margin-top: 6.5rem;
+	}
+
+	.about-contents-reason p:first-of-type {
+		margin-bottom: 2.5rem;
+	}
+
+	.about-contents-reason h4 {
+		margin-bottom: 2rem;
+	}
+
+    .works-detail-view {
+		flex-direction: column;
+		margin-bottom: 15rem;
+	}
+
+	.works-detail-view .pc-view {
+		flex: 1;
+	}
+	
+	footer {
+		padding-bottom: 6rem;
+	}
+	
+	.footer-inner > a {
+		width: 40vw;
+	}
+
+    footer ul {
+		padding-top: 0;
+        max-width: 35rem;
+		width: 65%;
+        margin: 0 auto;
+    }
+
+    footer ul li {
+        width: 100%;
+    }
+
+    footer ul li:first-of-type span {
+        display: none;
+    }
+
+    footer ul li:last-of-type a {
+        align-items: center;
+        flex-direction: column;
+    }
+}
